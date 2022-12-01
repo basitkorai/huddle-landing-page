@@ -131,7 +131,7 @@ p::selection ,h1::selection {
   .navbar {
     padding: 2em 0;
   }
-  
+
   .logo {
     width: 150px;
   }
@@ -176,5 +176,6 @@ p::selection ,h1::selection {
 @media (min-width: 1200px) {
     body {
         background-image: url("../images/bg-desktop.svg");
+        background-repeat: repeat-x;
     }
 }
